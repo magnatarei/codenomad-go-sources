@@ -1,0 +1,47 @@
+# Saída de compilação (go build, go test -c)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.o
+*.a
+bin/
+build/
+dist/
+
+# Perfis e cobertura de testes
+*.prof
+*.cover
+coverage.*
+
+# Caches do Go (quando apontados para dentro do repositório)
+.gocache/
+.gomodcache/
+.cache/
+
+# Pasta de dependências vendorizadas
+vendor/
+
+# Arquivos gerados pela toolchain em workspaces locais
+go.work
+go.work.sum
+
+# Logs e variáveis de ambiente locais
+*.log
+.env
+.env.*
+
+# Relatório do verificador
+.verificacao.json
+
+# Arquivos de sistema e de editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
